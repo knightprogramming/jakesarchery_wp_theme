@@ -1,0 +1,18 @@
+/*
+  Theme Name: Jakes Archery Custom Theme
+  Theme URI:
+  Author: Jacob Knight
+  Author URI:
+  Description: A custom theme to drive better ecomerce and sales for Jakes Archery.
+  Version: 1.0
+  License: UNLICENSED
+  Tags: ecomers, hunting, bow, archery, arrow
+  Text Domain: jakesarchery
+  #5e6b42
+  #eae7e2
+  #93654f
+*/
+
+body {
+  background-color: green;
+}
