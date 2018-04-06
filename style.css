@@ -4,15 +4,39 @@
   Author: Jacob Knight
   Author URI:
   Description: A custom theme to drive better ecomerce and sales for Jakes Archery.
-  Version: 1.0
+  Version: 1.1
   License: UNLICENSED
   Tags: ecomers, hunting, bow, archery, arrow
   Text Domain: jakesarchery
-  #5e6b42
-  #eae7e2
-  #93654f
 */
-
 body {
-  background-color: green;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  padding: 10px 0;
+}
+footer {
+  border: solid 3px red;
+}
+
+#logo {
+  width: 35vw;
+  margin-bottom: 15px;
+}
+
+.site-nav ul {
+  list-style-type: none;
+  margin: 0 3px 0 0;
+  padding: 0 2px;
+  width: 20vw;
+  text-align: center;
+}
+
+.site-nav a {
+  color: black;
+  font-size: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }

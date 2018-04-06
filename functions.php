@@ -16,8 +16,15 @@
  */
 function jakesarchery_styles() {
 	//add base stylesheet.
-	wp_register_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0' );
+	wp_register_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.1' );
 	wp_enqueue_style( 'style' );
 }
 
-add_action( 'wp_enqueue_styles', 'jakesarchery_styles' );
+add_action( 'wp_enqueue_scripts', 'jakesarchery_styles' );
+
+//add menues
+function jakesarchery_menues() {
+	register_nav_menus( array( 'header-menue' => __( 'Header Menue', 'jakesarchery' ) ) );
+}
+
+add_action( 'init', 'jakesarchery_menues' );
