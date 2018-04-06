@@ -16,7 +16,7 @@
  */
 function jakesarchery_styles() {
 	//add base stylesheet.
-	wp_register_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.1' );
+	wp_register_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.2' );
 	wp_enqueue_style( 'style' );
 }
 
