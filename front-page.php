@@ -15,5 +15,5 @@
 * @link      http://www.jakesarchery.com
 */
 get_header();
-echo 'test front page';
+echo 'test front page!';
 get_footer();
